@@ -311,7 +311,7 @@ Used to simulate interaction history for:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/smartbite.git
+git clone https://github.com/Satyy7/SmartBiteAI.git
 cd smartbite
 ```
 
