@@ -52,7 +52,7 @@ const DesktopNotice = () => {
           >
             <div
               className="
-                w-9 h-9
+                w-9 h-12
                 rounded-xl
                 bg-linear-to-br
                 from-orange-400
@@ -66,8 +66,9 @@ const DesktopNotice = () => {
             </div>
 
             <p className="text-xs font-medium text-neutral-700 leading-relaxed">
-              For the most premium SmartBite experience, try using a desktop or
-              large-screen device.
+              Having trouble logging in on mobile?
+              it may be due to third-party cookie restrictions in your browser.
+              For the most seamless and premium SmartBite experience, we recommend using a desktop or larger-screen device.
             </p>
           </div>
         </motion.div>
