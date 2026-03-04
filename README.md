@@ -1,178 +1,192 @@
-🍽️ SmartBite
-AI-Powered Food Recommendation & Ordering Platform
+# 🍽️ SmartBite
+## AI-Powered Food Recommendation & Ordering Platform
 
-SmartBite is a modern AI-driven food discovery and ordering platform that delivers personalized dish recommendations using Retrieval Augmented Generation (RAG) and vector search.
+SmartBite is a modern AI-driven food discovery and ordering platform that delivers personalized dish recommendations using **Retrieval Augmented Generation (RAG)** and **vector search**.
 
-Instead of traditional keyword search, SmartBite allows users to interact with an AI assistant using natural language, which intelligently retrieves and recommends the most relevant dishes from the menu.
+Instead of traditional keyword search, SmartBite allows users to interact with an **AI assistant using natural language**, which intelligently retrieves and recommends the most relevant dishes from the menu.
 
-The system combines semantic embeddings, Supabase PostgreSQL vector search, and generative AI to create a personalized food discovery experience.
+The system combines **semantic embeddings, Supabase PostgreSQL vector search, and generative AI** to create a personalized food discovery experience.
 
-🌟 Key Highlights
+---
 
-• AI-powered food recommendation system
-• Retrieval Augmented Generation (RAG) architecture
-• Vector similarity search using pgvector
-• Natural language AI assistant for menu discovery
-• Personalized homepage recommendations
-• Secure HTTP-only cookie authentication
-• Supabase powered backend infrastructure
-• Modern responsive UI with animated splash experience
-• Fully modular FastAPI + Next.js + Supabase architecture
+# 🌟 Key Highlights
 
-🧠 AI Recommendation System
+- AI-powered food recommendation system  
+- Retrieval Augmented Generation (RAG) architecture  
+- Vector similarity search using **pgvector**  
+- Natural language AI assistant for menu discovery  
+- Personalized homepage recommendations  
+- Secure **HTTP-only cookie authentication**  
+- Supabase powered backend infrastructure  
+- Modern responsive UI with animated splash experience  
+- Fully modular **FastAPI + Next.js + Supabase architecture**
 
-SmartBite uses a RAG (Retrieval Augmented Generation) pipeline to generate intelligent food suggestions.
+---
 
-AI Workflow
+# 🧠 AI Recommendation System
 
-Food menu items are converted into vector embeddings
+SmartBite uses a **RAG (Retrieval Augmented Generation)** pipeline to generate intelligent food suggestions.
 
-Embeddings are stored in Supabase PostgreSQL with pgvector
+## AI Workflow
 
-User sends a natural language query
+1. Food menu items are converted into **vector embeddings**
+2. Embeddings are stored in **Supabase PostgreSQL with pgvector**
+3. User sends a **natural language query**
+4. Query is converted into an embedding
+5. Vector similarity search retrieves the **most relevant dishes**
+6. **Gemini AI** generates a contextual recommendation and explanation
 
-Query is converted into an embedding
+### Example user query
 
-Vector similarity search retrieves the most relevant dishes
+> “I want something spicy and Indian for dinner”
 
-Gemini AI generates a contextual recommendation and explanation
+### AI response includes
 
-Example user query:
+- Best matching dish  
+- Related dishes  
+- Personalized explanation  
 
-“I want something spicy and Indian for dinner”
+---
 
-AI response includes:
+# 🎯 Core Features
 
-• Best matching dish
-• Related dishes
-• Personalized explanation
-
-🎯 Core Features
-🤖 SmartBite AI Assistant
+## 🤖 SmartBite AI Assistant
 
 Conversational AI interface for discovering food using natural language.
 
-Capabilities:
+### Capabilities
 
-• Understands conversational queries
-• Performs semantic vector search
-• Retrieves relevant dishes
-• Generates AI-powered recommendation summaries
+- Understands conversational queries
+- Performs semantic vector search
+- Retrieves relevant dishes
+- Generates AI-powered recommendation summaries
 
-🏠 Personalized Homepage
+---
+
+## 🏠 Personalized Homepage
 
 After login, users see a dynamic personalized dashboard including:
 
-Recommended For You
-
+### Recommended For You
 AI-driven recommendations based on interaction history.
 
-Reorder Section
-
+### Reorder Section
 Quick access to previously ordered dishes.
 
-Trending Dishes
-
+### Trending Dishes
 Popular dishes across all users.
 
-🍜 Smart Menu Exploration
+---
+
+## 🍜 Smart Menu Exploration
 
 Users can explore the menu using advanced filters.
 
-Food Type
+### Food Type
 
-• Veg
-• Non-Veg
+- Veg
+- Non-Veg
 
-Cuisine Filters
+### Cuisine Filters
 
-• Indian
-• Asian
-• Continental
-• Healthy
+- Indian
+- Asian
+- Continental
+- Healthy
 
-Sorting Options
+### Sorting Options
 
-• Popularity
-• Price
+- Popularity
+- Price
 
-🛒 Smart Cart Experience
+---
+
+## 🛒 Smart Cart Experience
 
 Features include:
 
-• Add / remove items
-• Smooth cart interactions
-• Slide-to-order checkout
-• Order success confirmation page
+- Add / remove items
+- Smooth cart interactions
+- Slide-to-order checkout
+- Order success confirmation page
 
-🔐 Secure Authentication System
+---
 
-SmartBite uses HTTP-only cookie based authentication.
+## 🔐 Secure Authentication System
 
-Benefits:
+SmartBite uses **HTTP-only cookie based authentication**.
 
-• Prevents XSS token theft
-• Secure server-side session handling
-• Protected API endpoints
+### Benefits
 
-Registration Validation
+- Prevents XSS token theft
+- Secure server-side session handling
+- Protected API endpoints
+
+### Registration Validation
 
 Live password validation includes:
 
-• Minimum 8 characters
-• 1 uppercase letter
-• 1 lowercase letter
-• 1 special character
-• Password confirmation verification
+- Minimum **8 characters**
+- **1 uppercase letter**
+- **1 lowercase letter**
+- **1 special character**
+- Password confirmation verification
 
-🎨 Premium User Experience
+---
+
+# 🎨 Premium User Experience
 
 SmartBite provides a modern UI including:
 
-• Animated splash screen
-• Smooth transitions
-• Responsive layout
-• Clean minimal design
+- Animated splash screen
+- Smooth transitions
+- Responsive layout
+- Clean minimal design
 
-🏗️ Tech Stack
-Frontend
+---
 
-• Next.js (App Router)
-• TypeScript
-• TailwindCSS
-• Framer Motion
+# 🏗️ Tech Stack
 
-Backend
+## Frontend
 
-• FastAPI
-• Python
+- Next.js (App Router)
+- TypeScript
+- TailwindCSS
+- Framer Motion
 
-Database
+## Backend
 
-• Supabase PostgreSQL
+- FastAPI
+- Python
 
-Vector Search
+## Database
 
-• pgvector
+- Supabase PostgreSQL
 
-Used for storing food embeddings.
+## Vector Search
 
-AI / ML
+- pgvector (used for storing food embeddings)
 
-• Gemini API
-• Gemini Embedding Model
-• Retrieval Augmented Generation (RAG)
+## AI / ML
 
-Storage
+- Gemini API
+- Gemini Embedding Model
+- Retrieval Augmented Generation (RAG)
 
-• Supabase Storage (S3 compatible)
+## Storage
+
+- Supabase Storage (S3 compatible)
 
 Used for:
 
-• Food images
-• Media assets
+- Food images
+- Media assets
 
-📂 Project Structure
+---
+
+# 📂 Project Structure
+
+```
 SMARTBITE
 │
 ├── backend
@@ -225,108 +239,161 @@ SMARTBITE
 │   └── public
 │
 └── README.md
-⚙️ Environment Variables
-Backend .env
+```
+
+---
+
+# ⚙️ Environment Variables
+
+## Backend `.env`
+
+```
 GEMINI_API_KEY=
 SUPABASE_URL=
 SUPABASE_STORAGE_BUCKET=
-Frontend .env.local
+```
+
+## Frontend `.env.local`
+
+```
 NEXT_PUBLIC_API_URL=
-🧬 Initial Data Setup (Required)
+```
+
+---
+
+# 🧬 Initial Data Setup (Required)
 
 Before using SmartBite, the database must be seeded with menu data and embeddings.
 
-1️⃣ Seed Food Menu
+## 1️⃣ Seed Food Menu
+
+```bash
 python seed_foods.py
+```
 
 This will:
 
-• Populate the database with food menu items
-• Store dish metadata such as name, price, and cuisine
+- Populate the database with food menu items
+- Store dish metadata such as name, price, and cuisine
 
-2️⃣ Generate AI Embeddings
+---
+
+## 2️⃣ Generate AI Embeddings
+
+```bash
 python seed_embeddings.py
+```
 
 This script:
 
-• Converts food descriptions into embeddings
-• Stores them in pgvector
+- Converts food descriptions into embeddings
+- Stores them in **pgvector**
 
-This enables semantic search and AI recommendations.
+This enables **semantic search and AI recommendations**.
 
-3️⃣ Seed User Interaction Data (Optional)
+---
+
+## 3️⃣ Seed User Interaction Data (Optional)
+
+```bash
 python seed_interactions.py
+```
 
 Used to simulate interaction history for:
 
-• recommendations
-• reorder suggestions
+- recommendations
+- reorder suggestions
 
-▶️ Running the Project Locally
-Clone Repository
+---
+
+# ▶️ Running the Project Locally
+
+## Clone Repository
+
+```bash
 git clone https://github.com/yourusername/smartbite.git
 cd smartbite
-Backend Setup
+```
+
+---
+
+## Backend Setup
+
+```bash
 cd backend
 
 python -m venv venv
 venv\Scripts\activate
 
 pip install -r requirements.txt
+```
 
 Start backend server:
 
+```bash
 uvicorn app.main:app --reload
+```
 
 Backend runs on:
 
+```
 http://localhost:8000
-Frontend Setup
+```
+
+---
+
+## Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Frontend runs on:
 
+```
 http://localhost:3000
-🔮 Future Improvements
+```
+
+---
+
+# 🔮 Future Improvements
 
 Planned enhancements include:
 
-💳 Payment Gateway Integration
-
+## 💳 Payment Gateway Integration
 Integrate real-time payment systems such as Razorpay or Stripe.
 
-📦 Live Order Tracking
+## 📦 Live Order Tracking
+Use **WebSockets** for real-time order tracking.
 
-Use WebSockets for real-time order tracking.
-
-📍 Location Based Recommendations
-
+## 📍 Location Based Recommendations
 Recommend dishes based on:
 
-• user location
-• nearby restaurants
-• local trends
+- user location
+- nearby restaurants
+- local trends
 
-🎟️ Coupons & Discounts
-
+## 🎟️ Coupons & Discounts
 Dynamic pricing and promotional offers.
 
-📢 Advertisement System
-
+## 📢 Advertisement System
 Monetization through sponsored food placements.
 
-🧠 Behavioral AI Recommendations
-
+## 🧠 Behavioral AI Recommendations
 Improve recommendations using user behavior analytics.
 
-👨‍💻 Author
+---
 
-Sai Satya Vardhan
-Computer Science Engineering
+# 👨‍💻 Author
+
+**Sai Satya Vardhan**  
+Computer Science Engineering  
 Mahindra University
 
-⭐ Support
+---
+
+# ⭐ Support
 
 If you found this project interesting, consider giving it a ⭐ on GitHub.
